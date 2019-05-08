@@ -1,0 +1,12 @@
+import Vehiculos.*
+
+test "corsa" {
+	
+	var corsa = new Vehiculos()
+	corsa.capacidad(4)
+	corsa.velMax(150)
+	corsa.peso(1300)
+	corsa.color("negro")
+	assert.that(true)
+
+}
